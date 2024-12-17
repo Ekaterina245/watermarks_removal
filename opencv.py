@@ -87,6 +87,7 @@ class MyApp(QMainWindow, clean.Ui_MainWindow):
 
         c.save()
 
+
     def clean(self):
         text = self.show_text()
         print(text, type(text))
